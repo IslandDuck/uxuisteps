@@ -187,7 +187,6 @@ small {
 #Finalise { background: #A164D9; }
 #Delight { background: #40A4D8; }
 #Analyse { background: #33BEB7; }
-#Design { background: #f44720; }
 
 .cards {
 	border: 1px solid #f1f1f1;
@@ -229,7 +228,6 @@ small {
 }
 
 .card-content {
-	text-align: center;
 	padding: 0 10px;
 	-webkit-box-flex: 3;
 	-webkit-flex-grow: 3;
@@ -270,21 +268,6 @@ small {
 	font-size: 0.9em;
 	display: none;
 }
-.img h6 {
-	color: white;
-    position: absolute;
-    left: 8px;
-    background: rgba(14, 7, 7, 0.55);
-    border: solid rgb(255, 255, 255);
-    padding: 4px;
-    padding-left: 6px;
-    padding-right: 6px;
-    /*border-top-left-radius: 18px;
-    border-top-right-radius: 18px;
-    border-bottom-left-radius: 18px;
-    border-bottom-right-radius: 18px;
-    border-radius: 50%;*/
-}
 
 
 @media (min-width: 1024px) {
@@ -316,7 +299,6 @@ small {
 
 	.title span {
 		/* Abs positioning makes it not take up vert space  */
-		letter-spacing: 1px;
 	    position: absolute;
 	    bottom: -10px;
 	    left: 3px;
