@@ -128,7 +128,10 @@ button i,
 }
 #header h1 {
 	display: inline-block;
-	padding: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 90px;
 }
 small {
 	font-size: 0.7em;
@@ -142,6 +145,12 @@ small {
 #title, #gdrivebox {
 	margin-bottom: 10px;
 }
+
+#title {
+	font-size: 30px;
+}
+
+
 
 #footer {
     padding: 1.25rem;
